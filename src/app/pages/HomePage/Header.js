@@ -72,11 +72,11 @@ export const Header = () => {
           `}
           onChange={changeLanguage}
         >
+          <option value="jp">Japanese</option>
           <option value="vi">Vietnamese</option>
+          <option value="ko">Korean</option>
           <option value="en">English</option>
           <option value="ru">Russia</option>
-          <option value="jp">Japanese</option>
-          <option value="ko">Korean</option>
         </select>
       </div>
     </div>
