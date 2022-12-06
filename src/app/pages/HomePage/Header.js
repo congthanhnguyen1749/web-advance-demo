@@ -69,6 +69,10 @@ export const Header = () => {
             outline: none;
             border: none;
             box-shadow: ${boxShadow};
+
+            &:hover {
+              color: #eeecec;
+            }
           `}
           onChange={changeLanguage}
         >
