@@ -71,7 +71,7 @@ export const Header = () => {
             box-shadow: ${boxShadow};
 
             &:hover {
-              color: #eeecec;
+              background-color: #eeecec;
             }
           `}
           onChange={changeLanguage}
